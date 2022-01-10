@@ -2,13 +2,16 @@ import React from "react";
 //import logo from './logo.svg';
 import "./App.css";
 
-function App() {
+function App(props) {
   return (
    <div>
      <p>This is a paragraph</p>
      <p>This is the second paragraph</p>
-     
-   </div>
+     <p>Some props are here: {
+       props.contentdata
+       
+       }</p>
+     </div>
   )
 }
 

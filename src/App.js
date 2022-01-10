@@ -4,16 +4,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h2 title="This is the Heading"> Heading - This is JSX method</h2>
-      <p id="para1">This is a paragraph</p>
-      <p className="para2">This is a second paragraph</p>
-      <div>
-        <label htmlFor="input1"> Some Data</label>
-        <input id="input1" name="input1"></input>
-      </div>
-    </div>
-  );
+   <div>
+     <p>This is a paragraph</p>
+     <p>This is the second paragraph</p>
+     
+   </div>
+  )
 }
 
 export default App;
